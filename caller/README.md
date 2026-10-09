@@ -1,6 +1,6 @@
 # Caller template
 
-Planned (#136): `vethuq-ocr.yml`, the thin caller that runs in the user's runner repo.
+Planned: `vethuq-ocr.yml`, the thin caller that runs in the user's runner repo.
 
 Requirements: `workflow_dispatch` only; plain inputs limited to the job id and the asset
 reference; minimal `permissions`; a concurrency group; the reusable workflow pinned by tag or SHA
