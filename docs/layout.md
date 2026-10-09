@@ -43,7 +43,7 @@ docs/
 - Anything in this repo that could run in the user's repo must be inert there. Workflows other than
   the caller are guarded with `if: github.repository == 'coldsofttech/vethuq-github-tier'`, and
   `ocr.yml` is `workflow_call`-only, so it cannot be dispatched.
-- The client's `setup` (#147) writes the pinned caller workflow itself and may prune files the
+- The client's `setup` writes the pinned caller workflow itself and may prune files the
   runner repo does not need. A user's repo is therefore not expected to be identical to this one.
 - If this proves awkward (for example the copied files confuse users), the fallback is to move the
   template into its own small repository and keep this one for the reusable workflow, image and
