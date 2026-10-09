@@ -1,6 +1,6 @@
 # Job protocol v1
 
-Planned (#138): the encrypted manifest and result formats shared by the client
+Planned: the encrypted manifest and result formats shared by the client
 (`packages/vethuq-github`) and the worker.
 
 - `manifest.schema.json`: protocol version, job id, user settings, page list, licence token(s)
