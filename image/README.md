@@ -1,6 +1,6 @@
 # Worker image
 
-Planned (#142): `Dockerfile` for a single public `linux/amd64` image containing the worker,
+Planned: `Dockerfile` for a single public `linux/amd64` image containing the worker,
 core, entitlements, all add-on wheels (gated at runtime by the licence) and baked-in models.
 
 Published to GHCR as a public package (new GHCR packages default to private; the one-time
